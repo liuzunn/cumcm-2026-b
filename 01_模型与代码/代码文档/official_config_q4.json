@@ -1,0 +1,15 @@
+{
+  "_说明": "官方模拟器接入参数（问题4 · 全向+定向混合）。Q4 基线与 b26/ 冻结包一字未动；本文件在冻结对象之外。",
+  "_问题": "问题4",
+  "base_url": "http://127.0.0.1:2026",
+  "robot_id": "202606036029",
+  "arena_id": "default",
+  "log_dir": "_work_official_q4",
+  "cert": "CERT_S51B",
+  "cert_points": 51,
+  "cert_mode": "adaptive",
+  "controller": "b26_q4.Robot4",
+  "_冻结基线": "05_EXPERIMENTS/results/_work_b26_q4_manifest.json",
+  "_语义核对清单": "见冻结清单字段 官方演练语义核对清单（4 项原有 + 5 项 Q4 专属）",
+  "_纪律": "官方行为与设计不符时，先在 04_CODE/ 之外加兼容层，不得修改冻结基线"
+}

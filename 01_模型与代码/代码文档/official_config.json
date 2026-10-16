@@ -1,0 +1,11 @@
+{
+  "_说明": "官方模拟器接入参数。b26/ 冻结包一字未动；本文件与其配套脚本都在包外。",
+  "base_url": "http://127.0.0.1:2026",
+  "robot_id": "202606036029",
+  "arena_id": "default",
+  "log_dir": "_work_official",
+  "cover": "COVER_9",
+  "cover_mode": "adaptive",
+  "strategy": "centroid",
+  "_冻结配置对应": "G-9点覆盖+自适应缺口驱动+就近复测"
+}
